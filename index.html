@@ -673,16 +673,20 @@
             <a href="">Privacy Policy</a>
           </label> -->
 
-          <input
-            id="policy"
-            type="checkbox"
-            name="user-policy"
-            value="checkbox"
-            required
-            class="checkbox-form"
-          />
-          <label for="policy" class="checkbox-description">
-            I accept the terms and conditions of the
+          <label class="checkbox-description">
+            <input
+              type="checkbox"
+              name="user-policy"
+              value="checkbox"
+              required
+              class="checkbox-form visually-hidden"
+            />
+            <span class="icon-checkboks">
+              <svg class="icon-policy" width="10" height="8">
+                <use href="./images/icons.svg#icon-policy"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the&nbsp;
             <a href="" class="policy-link">Privacy Policy</a>
           </label>
 
