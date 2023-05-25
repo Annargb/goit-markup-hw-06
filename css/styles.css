@@ -870,10 +870,10 @@ img {
   border-radius: 2px;
   fill: transparent;
   cursor: pointer;
-
+  /* 
   transition: background-color 250ms var(--timing-function),
     border-color 250ms var(--timing-function), fill 250ms var(--timing-function),
-    border 250ms var(--timing-function);
+    border 250ms var(--timing-function); */
 }
 
 .checkbox-form:focus-within + .checkbox-description .icon-checkboks {
