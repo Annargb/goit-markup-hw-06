@@ -761,6 +761,12 @@ img {
 
 .form-field {
   display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: var(--stroke-logo-color);
 }
 
 .form-field:last-child {
@@ -793,7 +799,7 @@ img {
   fill: var(--primary-brand-color);
 }
 
-.input-description {
+/* .input-description {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -801,7 +807,7 @@ img {
   letter-spacing: 0.04em;
 
   color: var(--stroke-logo-color);
-}
+} */
 
 .form-icon {
   position: absolute;
