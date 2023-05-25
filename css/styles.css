@@ -879,6 +879,15 @@ img {
     border 250ms var(--timing-function);
 }
 
+.checkbox-form:focus-within + .checkbox-description .icon-checkboks {
+  background-color: var(--hover-color);
+  fill: var(--white-text-color);
+  border: none;
+  border-color: var(--hover-color);
+
+  outline: 1px solid var(--primary-brand-color);
+}
+
 .checkbox-form:checked + .checkbox-description .icon-checkboks {
   background-color: var(--hover-color);
   fill: var(--white-text-color);
