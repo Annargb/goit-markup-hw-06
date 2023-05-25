@@ -755,9 +755,12 @@ img {
   color: var(--headings-text-color);
 }
 
+.modal-form-wrapper {
+  margin-bottom: 8px;
+}
+
 .form-field {
   display: block;
-  margin-bottom: 8px;
 }
 
 .form-field:last-child {
