@@ -681,7 +681,7 @@
             </div>
           </div>
 
-          <div class="modal-form-wrapper">
+          <div class="modal-form-wrapper textarea-container">
             <label class="form-field" for="user-comment"> Comment</label>
             <textarea
               name="user-comment"
@@ -691,15 +691,16 @@
             ></textarea>
           </div>
 
-          <div>
-            <label class="checkbox-description">
-              <input
-                type="checkbox"
-                name="user-policy"
-                value="checkbox"
-                required
-                class="checkbox-form visually-hidden"
-              />
+          <div class="user-policy-wrapper">
+            <input
+              type="checkbox"
+              name="user-policy"
+              id="user-privacy"
+              value="true"
+              required
+              class="checkbox-form visually-hidden"
+            />
+            <label class="checkbox-description" for="user-privacy">
               <span class="icon-checkboks">
                 <svg class="icon-policy" width="10" height="8">
                   <use href="./images/icons.svg#icon-policy"></use>

@@ -759,7 +759,7 @@ img {
   margin-bottom: 8px;
 }
 
-.modal-form-wrapper:last-child {
+.textarea-container {
   margin-bottom: 16px;
 }
 
@@ -848,9 +848,13 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.user-policy-wrapper {
+  margin-bottom: 24px;
+}
+
 .checkbox-description {
   display: flex;
-  margin-bottom: 24px;
+
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
