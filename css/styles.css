@@ -787,7 +787,7 @@ img {
   height: 40px;
   padding-left: 38px;
 
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
@@ -804,16 +804,6 @@ img {
 .form-input:focus-within + .form-icon {
   fill: var(--primary-brand-color);
 }
-
-/* .input-description {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-
-  color: var(--stroke-logo-color);
-} */
 
 .form-icon {
   position: absolute;
@@ -832,7 +822,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
@@ -866,14 +856,14 @@ img {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-  border: 1px solid var(--headings-text-color);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   fill: transparent;
   cursor: pointer;
-  /* 
+
   transition: background-color 250ms var(--timing-function),
     border-color 250ms var(--timing-function), fill 250ms var(--timing-function),
-    border 250ms var(--timing-function); */
+    border 250ms var(--timing-function);
 }
 
 .checkbox-form:focus-within + .checkbox-description .icon-checkboks {
